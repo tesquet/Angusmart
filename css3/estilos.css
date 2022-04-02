@@ -1,0 +1,93 @@
+
+/* ? ----- PORTADA ----- */
+.portada {
+	width: 100%;
+	background: #EFEFEF;
+
+	min-height: 100vh;
+
+	top: 0;
+	left: 0;
+	right: 0;
+
+	padding: inherit;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	transition: .5s ease-out all;
+}
+
+.portada .header {
+	margin-bottom: 50px;
+	text-transform: uppercase;
+	letter-spacing: 3px;
+}
+
+.portada .header .logotipo {
+	font-size: 32px;
+	font-weight: 700;
+		margin-top: 50px;
+	margin-bottom: 20px;
+	color:#343434;
+	font-family: inherit;
+}
+
+.portada .header .mensaje {
+	font-size: 20px;
+	font-weight: 600;
+	color:#343434;
+	font-family: inherit;
+
+}
+
+
+
+/* ? ----- MAIN ----- */
+main {
+	max-width: 1000px;
+	margin: auto;
+	width: 90%;
+	padding: 60px 0;
+	font-size: 18px;
+	line-height: 28px;
+	text-align: left;
+}
+
+
+
+/* ? ----- Cuenta Regresiva ----- */
+#cuenta {
+	display: flex;
+	justify-content: center;
+	margin-bottom: 100px;
+	flex-wrap: wrap;
+}
+
+.simply-section {
+	background: #0F1B40;
+	color:#fff;
+	min-width: 100px;
+	width: 150px;
+	height: 150px;
+	margin: 5px 20px;
+	border-radius: 5px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding-right: 15px;
+	padding-left: 15px;
+	box-shadow: 0 5px 5px rgb(0 0 0 / 20%);
+}
+
+.simply-amount {
+	display: block;
+	font-size: 50px;
+	font-weight: 700;
+}
+
+.simply-word {
+	font-weight: 300;
+	font-size: 30px;
+}
